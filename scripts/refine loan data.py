@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('Loan Default Classification/cs-training.csv')
+data = pd.read_csv('../data/Loan Default Classification/cs-training.csv')
 
 headers = data.columns.tolist()
 

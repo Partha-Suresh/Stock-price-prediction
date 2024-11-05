@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('Credit Score Classification/train.csv')
+data = pd.read_csv('../data/Credit Score Classification/train.csv')
 
 headers = data.columns.tolist()
 
